@@ -17,10 +17,10 @@ describe('Project Flow Test', () => {
     })
 
     it('should be able to create new project', () => {
-        cy.wait(5000)
         cy.server()
         cy.route('/v1/starter/*').as('getStarter')
         cy.wait('@getStarter')
+        cy.wait(2000)
         cy.get(locator.project.newProject).click()
         cy.get(locator.project.projectNameInput).type('Sample project')
         cy.get(locator.project.descriptionInput).type('This project created for testing')
