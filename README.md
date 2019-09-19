@@ -14,7 +14,7 @@ git clone https://github.com/chulaluk/Automated-Assignment.git
  cd Automated-Assignment
 ```
   
-### Install Cypress
+### 2. Install Cypress
  ```bash
  npm install cypress --save-dev
 ```
