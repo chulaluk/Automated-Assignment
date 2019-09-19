@@ -17,7 +17,7 @@ describe('Project Flow Test', () => {
     })
 
     it('should be able to create new project', () => {
-        cy.wait(2000)
+        cy.wait(5000)
         cy.server()
         cy.route('/v1/starter/*').as('getStarter')
         cy.wait('@getStarter')
