@@ -13,7 +13,7 @@
     "selenium-webdriver": "^4.0.0-alpha.5"
   },
   "devDependencies": {
-    "cypress": "^3.4.1",
+    "cypress": "^12.7.0",
     "mocha": "^6.2.0"
   },
   "scripts": {
